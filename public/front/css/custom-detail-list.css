@@ -1,0 +1,368 @@
+.nav.img-small-wrap.img-gal {
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.desc-vendor {
+  border-radius: 7px;
+}
+
+.fasilitas {
+  font-size: 30px;
+}
+
+.box-tanggal {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.nav-tabs .booking.active,
+.nav-tabs .nav-item-db.show .booking {
+  border-top-left-radius: 10px;
+}
+
+.nav-tabs .ulasan.active,
+.nav-tabs .nav-item-db.show .ulasan {
+  border-top-right-radius: 10px;
+}
+
+.nav-item.detail-list {
+  margin-right: 0px;
+}
+
+.card.desc-detail {
+  border-top: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.nav-item.detail-list,
+.nav-link {
+  color: #acaeb1;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  background-color: #56ded0;
+  color: #fff;
+}
+
+.slider-tgl {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.navigasi-tgl {
+  width: 1%;
+  opacity: 1;
+}
+
+.time-tabel {
+  text-align: center;
+  align-content: center;
+}
+
+.status-time {
+  justify-content: center;
+}
+
+.lap h5 {
+  color: #000;
+  display: inline-flex;
+}
+
+.btn-hijau {
+  background-color: #14afac;
+  color: #fff;
+  border: none;
+}
+
+.btn-hijau:hover {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  /* show 3 items */
+  .carousel-inner .active,
+  .carousel-inner .active + .carousel-item,
+  .carousel-inner .active + .carousel-item + .carousel-item,
+  .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item,
+  .carousel-inner
+    .active
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-inner
+    .active
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-inner
+    .active
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    display: block;
+  }
+
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item,
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item
+    + .carousel-item,
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    transition: none;
+  }
+
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+  }
+
+  .carousel-inner
+    .active.carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -20%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+
+  /* left or forward direction */
+  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+  .carousel-item-next.carousel-item-left
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-item-next.carousel-item-left
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-item-next.carousel-item-left
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-item-next.carousel-item-left
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  /* farthest right hidden item must be abso position for animations */
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+
+  /* right or prev direction */
+  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+  .carousel-item-prev.carousel-item-right + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+  .carousel-item-prev.carousel-item-right
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-item-prev.carousel-item-right
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-item-prev.carousel-item-right
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-item-prev.carousel-item-right
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+  }
+}
+
+.btn.active {
+  border: 1px solid #14afac;
+  background-color: #14afac;
+  color: #fff;
+}
+
+.btn-border-time {
+  border: 1px solid #14afac;
+  color: #14afac;
+  background-color: #fff;
+}
+
+.btn-border-time:hover {
+  border: 1px solid #56ded0;
+  background-color: #56ded0;
+  color: #fff;
+}
+
+.btn-disabl-time {
+  background-color: darkgrey;
+  color: #fffafa;
+}
+
+.btn-non-active {
+  background-color: #f3f3f3;
+  color: #acaeb1;
+}
+
+.btn-non-active:hover {
+  background-color: #56ded0;
+  color: white;
+}
+
+.summary-rate {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.keterangan {
+  color: #acaeb1;
+  font-size: large;
+}
+
+.star1 i {
+  font-size: 20px;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.middle {
+  float: left;
+  width: 70%;
+  margin-top: 10px;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {
+  width: 60%;
+  height: 18px;
+  background-color: #ffa500;
+}
+.bar-4 {
+  width: 30%;
+  height: 18px;
+  background-color: #ffa500;
+}
+.bar-3 {
+  width: 10%;
+  height: 18px;
+  background-color: #ffa500;
+}
+.bar-2 {
+  width: 4%;
+  height: 18px;
+  background-color: #ffa500;
+}
+.bar-1 {
+  width: 15%;
+  height: 18px;
+  background-color: #ffa500;
+}
+
+.checked {
+  color: orange;
+}
+
+.content-review-image {
+  display: inline-block;
+}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side,
+  .middle {
+    width: 100%;
+  }
+  /* Hide the right column on small screens */
+  .right {
+    display: none;
+  }
+}
